@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fbaed2;
+  color: #fadadd;  
+}
+.navbar{
+  background-color: #ffddf4;
+  padding: 20px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px; 
+}
+.navbar h2{
+  color: #fbcce7;  
+}
+.link a{
+    text-decoration: none;
+    color: #ffcff1;
+    margin: 8px;
+    font-weight: bold;
+}
+.link a:hover{
+    color: #ffc1cc;
+}
+.hero{
+    border-color: #ffc1cc;
+    padding: 75px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.hero-text{
+    flex: 1;
+}
+.hero h1{
+    color: #fbcce7;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.hero p{
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+.hero-image{
+    flex: 1;
+}
+.hero-image img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 35px solid #fbcce7;
+}
+.button{
+    display: inline-block;
+    background-color: #fbaed2;
+    color: #fbcce7;
+    border: 35px solid #fbcce7;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: #ffc1cc;
+}
+.activies{
+    padding: 60px 6%;
+    text-align: center;
+}
+.activies h2, .food h2{
+ font-size: 30px;
+ margin-bottom: 30px;
+}
+.cards{
+    font-size: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+.cards:hover{
+    transform: translateY(-8px);
+}
+.emoji{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.card h3{
+    margin-bottom: 12px;
+} 
+.card p{
+    line-height: 1.5;
+}
+.pink{
+    background-color: #ffe2ec;
+}
+.blue{
+background-color: #ccf2fb;
+}
+.green{
+    background-color: #d2ffcf;
+}
+.purple{
+    background-color: #fbaef7;
+}
+.food{
+    background-color: #fff0d5;
+    padding: 50px 20px;
+   text-align: center; 
+}
+.food p{
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 25px;
+}
+.food img{
+    width: 100%;
+    max-width: 450px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+footer{
+    background-color: #64a96b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
